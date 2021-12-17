@@ -1,0 +1,113 @@
+.nav-bottom {
+    width: 100%;
+}
+.azure {
+    color: #0088FF;
+}
+.scroll-section {
+    overflow-y: auto;
+}
+.container-center {
+    line-height: 100vh;
+}
+.container-center p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    height: fit-content;
+}
+.clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: fit-content;
+}
+.clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: fit-content;
+}
+.mapboxgl-map .mapboxgl-control-container .mapboxgl-ctrl-bottom-left{
+    display: none;
+}
+.mapboxgl-map .mapboxgl-control-container .mapboxgl-ctrl-bottom-right{
+    display: none;
+}
+.swiper-pagination-bullet-active{
+    background-color: azure !important;
+}
+/* Tab content - closed */
+.tab-content {
+    max-height: 0;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+/* :checked - resize to full height */
+.tab input:checked ~ .tab-content {
+    max-height: 100vh;
+}
+/* Icon */
+.tab label::after {
+    float:right;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 1.5em;
+    line-height: 1.5;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+/* Icon formatting - closed */
+.tab input[type=checkbox] + label::after {
+    content: "\2039";
+    transform: rotate(-90deg);
+}
+/* Icon formatting - open */
+.tab input[type=checkbox]:checked + label::after {
+    content: "\2039";
+    transform: rotate(90deg);
+    margin-right: -3px;
+}
+.container-image .button-delete {
+    position: absolute;
+    cursor: pointer;
+}
+.swiper-pagination-bullet {
+    padding: 7px;
+}
+.react-geocoder {
+    padding: 5px;
+}
+.react-geocoder > input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.react-geocoder-results > div {
+    cursor: pointer;
+    margin: 10px 10px 0;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding-bottom: 10px;
+}
+.gsc-control-cse.gsc-control-cse-en {
+    padding: 0;
+}
+li:before {
+    content: "\2937";
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
