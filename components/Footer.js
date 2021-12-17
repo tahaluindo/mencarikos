@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="text-sm azure">
                 <Link href="/">Beranda</Link> &middot; <Link href="/about">Tentang Kami</Link> &middot; <Link href="/contact">Kontak</Link> &middot; <Link href="/policy">Kebijakan Privasi</Link>
             </div>
-            <small className="text-gray-700">&copy; 2019-{new Date().getFullYear()} Tantekos. All Rights Reserved.</small>
+            <small className="text-gray-700">&copy; 2021-{new Date().getFullYear()} MencariKOS. All Rights Reserved.</small>
         </div>
     </footer>
 }
